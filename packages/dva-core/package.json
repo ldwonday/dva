@@ -1,10 +1,10 @@
 {
-  "name": "dva-core",
-  "version": "1.6.0-alpha.0",
+  "name": "dva-ldwonday-core",
+  "version": "1.4.0",
   "description": "The core lightweight library for dva, based on redux and redux-saga.",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dvajs/dva"
+    "url": "git+https://github.com/dvajs/dva.git"
   },
   "homepage": "https://github.com/dvajs/dva",
   "keywords": [
@@ -44,5 +44,14 @@
     "src",
     "index.js",
     "saga.js"
-  ]
+  ],
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": ""
 }
