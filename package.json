@@ -1,5 +1,5 @@
 {
-  "private": true,
+  "private": false,
   "scripts": {
     "build": "node scripts/build.js",
     "build:es": "ES=1 node scripts/build.js",
@@ -57,5 +57,27 @@
       "prettier --trailing-comma es5 --single-quote --write",
       "git add"
     ]
-  }
+  },
+  "name": "dva-ldwonday",
+  "description": "English | [简体中文](./README_zh-CN.md)",
+  "version": "1.5.0",
+  "main": "jest.config.js",
+  "directories": {
+    "doc": "docs",
+    "example": "examples"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ldwonday/dva.git"
+  },
+  "keywords": [
+    "dva"
+  ],
+  "author": "wangbagang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ldwonday/dva/issues"
+  },
+  "homepage": "https://github.com/ldwonday/dva#readme"
 }

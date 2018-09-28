@@ -1,13 +1,10 @@
 import invariant from 'invariant';
-import {
-  effects as sagaEffects,
-  takeEvery,
-  takeLatest,
-  throttle,
-} from 'redux-saga/dist/redux-saga';
+import { effects as sagaEffects } from 'redux-saga/dist/redux-saga';
 import warning from 'warning';
 import { NAMESPACE_SEP } from './constants';
 import prefixType from './prefixType';
+
+const { takeEvery, takeLatest, throttle } = sagaEffects;
 
 export default function getSaga(effects, model, onError, onEffect) {
   return function*() {
